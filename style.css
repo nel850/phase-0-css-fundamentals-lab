@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  background-color: gray;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure figcaption {
+  font-size: 15px;
+}
+
+#featured-property p {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  margin-bottom: 12px;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(224, 107, 10, 0.897);
+}
